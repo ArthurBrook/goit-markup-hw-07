@@ -1,0 +1,170 @@
+@media screen and (min-width: 1200px) {
+   .container {
+      max-width: 1158px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   .section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+   }
+
+   /* Header */
+   .header {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      height: 76px;
+      border-bottom: 1px solid #E7E9FC;
+   }
+
+   .header-container {
+      display: flex;
+      align-items: center;
+   }
+
+   .logo {
+      margin-right: 76px;
+   }
+
+   .curent::after {
+      top: 48px;
+   }
+
+   .contact-list {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+   }
+
+   .contact-link {
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+   }
+
+   .menu-btn {
+      display: none;
+   }
+
+
+   .mob-menu {
+      display: none;
+   }
+
+   /* Hero */
+   .hero {
+      padding-top: 188px;
+      padding-bottom: 188px;
+   }
+
+   .hero-title {
+      font-size: 56px;
+      line-height: 60px;
+      max-width: 500px;
+      margin-bottom: 48px;
+   }
+
+   .hero-btn {
+      font-size: 16px;
+      width: 169px;
+      height: 56px;
+   }
+
+   /* Features */
+
+   .features {
+      padding-bottom: 0;
+   }
+
+   .about-list {
+      display: flex;
+      gap: 24px;
+   }
+   .about-item {
+      width: 264px;
+   }
+   .features-icon-item {
+      display: block;
+      width: 264px;
+      height: 112px;
+      background: #F4F4FD;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .features-subtitle {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+   }
+   .features-text {
+      font-weight: 400;
+      font-size: 16px;
+   }
+
+   /* We do */
+   .wedo {
+      display: block;
+   }
+
+   /* Our team */
+   .team-list {
+      display: flex;
+      gap: 24px;
+   }
+
+      /* Customers */
+   .customers-list {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 24px;
+   }
+
+   .customers-item {
+      width: 168px;
+   }
+
+   .customers-icon {
+      width: 104px;
+      height: 56px;
+   }
+
+   /* Footer */
+   .footer {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+   
+   .footer-content {
+      display: flex;
+      justify-content: flex-start;
+      gap: 0;
+   }
+
+   .footer-logo {
+      display: flex;
+      justify-content: flex-start;
+   }
+
+   .footer-logo-content {
+      margin-right: 120px;
+   }
+   .footer-soc-content {
+      margin-right: 80px;
+   }
+
+   .footer-soc-title {
+      text-align: start;
+   }
+
+   .footer-input {
+      margin-right: 24px;
+   }
+
+   .footer-input-title {
+      text-align: start;
+   }
+}
