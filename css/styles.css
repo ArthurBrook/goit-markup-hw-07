@@ -57,6 +57,7 @@ img {
 
 .header-container {
    display: flex;
+   align-items: center;
 }
 
 .navigation {
@@ -149,6 +150,7 @@ img {
 
 .mob-nav-link {
    display: block;
+   font-weight: 700;
    font-size: 36px;
    line-height: 40px;
    letter-spacing: 0.02em;
@@ -211,8 +213,8 @@ img {
 
 /* Hero */
 .hero {
-   padding-top: 92px;
-   padding-bottom: 92px;
+   padding-top: 112px;
+   padding-bottom: 112px;
    background-image: var(--gra), url(../images/hero-bg-mob.jpg);
    max-width: 1440px;
    margin: auto;
